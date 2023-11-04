@@ -1,5 +1,5 @@
 // I FINISH THE PROBLEM YOU JUST NEED TO UPLOAD THE SOLUTION...
-
+// CHANGING TO 01 INSTEAD OF 1, 03 INSTEAD OF 3...
 
 // Write a function
 
@@ -21,7 +21,12 @@ function vowel2index(str) {
       iterator === "e" ||
       iterator === "i" ||
       iterator === "o" ||
-      iterator === "u"
+      iterator === "u" ||
+      iterator === "A" ||
+      iterator === "E" ||
+      iterator === "I" ||
+      iterator === "O" ||
+      iterator === "U"
     ) {
       vowel2index += index;
     } else {
@@ -35,3 +40,6 @@ function vowel2index(str) {
 console.log(vowel2index("Hola"));
 console.log(vowel2index("This is the best!"));
 console.log(vowel2index("hola soy ivan"));
+console.log(vowel2index("Tomorrow is going to be raining"));
+console.log(vowel2index(""));
+console.log(vowel2index("90's &;  s soy"));
